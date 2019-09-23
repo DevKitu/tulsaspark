@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head section -->
+    <% include head %> 
+
+<!-- Body section -->
+<body class="container-fluid">
+  <!-- Navigation section -->
+    <!-- Head Navigation non-stiky -->
+        <% include ./navigation %> 
+        
+<!-- Main section -->              
+  <main>
+        
+    <%- body %>
+
+  </main> 
+  <footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Head Navigation non-stiky -->
+    <% include ./footer/footer %> 
+
+  </footer>
+
+  <script src="http://localhost:3000/modules/jquery/dist/jquery.min.js"></script>
+  <script src="http://localhost:3000/modules/popper.js/dist/popper.min.js" ></script>
+  <script src="http://localhost:3000/modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+  <script src="http://localhost:3000/static/src/js/custom.js" ></script>
+    
+</body>
+
+</html>
+

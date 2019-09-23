@@ -1,0 +1,39 @@
+ {
+    "title": "Tulsaspark",
+    "description":"Waste Management Company",
+    "navTop": {
+        "field_01": "about us",
+        "field_02": "contact us"
+    },
+    "navBottom": {
+        "field_01": {
+            "title": "TWPT",
+            "details": {
+                "field_01": "HOME",
+                "field_02": "BBC",
+                "field_03": "LANDFIELD",
+                "field_04": "REGISTER"
+            }
+        },
+        "field_02": {
+            "title": "TWP",
+            "details": {
+                "field_01": "HOME",
+                "field_02": "BBC",
+                "field_03": "LANDFIELD",
+                "field_04": "REGISTER"
+            }
+        },
+        "field_03": {
+            "title": "TBAS",
+            "details": {
+                "field_01": "HOME",
+                "field_02": "BBC",
+                "field_03": "LANDFIELD",
+                "field_04": "REGISTER"
+            }
+        }
+       
+    }
+
+}

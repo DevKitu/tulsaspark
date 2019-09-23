@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-primary ">
+  <a href="/" class="navbar-brand">
+    <img src="http://localhost:3000/static/src/assets/images/logo.png" 
+          class="d-inline-block align-top" alt="logo"> 
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto small mb-2 mb-md-0">
+      <% navData.navTop.navItems.forEach(function(navItem) { %>
+        <li class="nav-item"><a class="nav-link  lead font-weight-bold  text-dark" href="#<%= navItem.href %>"><%= navItem.name %> </a>  </li>
+      <% }); %>
+
+    </ul>
+    
+    <hr class="border-top my-2">
+    <hr class="my-4">
+    <ul class="navbar-nav big mx-auto">
+
+            <% navData.navBottom.forEach(function(navItem, index) { %>
+              <li class="nav-item  dropdown <% if (index === 0) {%>
+                        <%= "active" %>
+                        <% } %>" 
+                id="<%= navItem.id %>">
+                <a class="nav-link lead dropdown-toggle font-weight-bold text-dark " data-toggle="dropdown" aria-expanded="false" 
+                     href="<%= navItem.href %>"><%= navItem.title %> 
+                </a>
+                <div class="dropdown-menu">
+                    
+                    <% for (var j = 0; j < navItem.navItems.length; j++) {%>  
+                      <a class="dropdown-item" 
+                        href="<%= navItem.navItems[j].href %>">
+                        <%= navItem.navItems[j].name %>
+                      </a>
+                    <% } %>
+                </div> 
+ 
+              </li>
+            <% }); %>
+        </ul>
+    </div>
+</nav>

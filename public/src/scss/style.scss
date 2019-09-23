@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+$theme-colors: (
+    "primary":     #75BF42,
+    "secondary":  #5DBCD2,
+    "success":     #28a745,
+    "info":       #17a2b8,
+    "warning":    #ffc107 ,
+    "danger":     #dc3545,
+    "light":      #e9ecef,
+    "dark":      #212529,
+    "grey":  #6a6c6d
+);
+
+
+/*--- General css  ---*/
+
+/*--remove margin paading and border on the caroussel col elements--*/
+.cCol {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important; 
+    
+  }
+  /*--make the caroussel col elements(image and jumbotron) 100% height --*/
+  .cColEl {
+    height: 100vh;
+  }
+  
+  .main-header {
+    margin: 0 !important;
+    background-color: #ffffff !important;
+    border-top: 2px solid rgb(219,219,219);
+  
+  }
+
+  .jumbotron {
+    //margin: 0 !important;
+    background-color: #ffffff !important;
+    //border-top: 2px solid rgb(219,219,219);
+  }
+  
+  .row.cdevide [class*='col']:not(:last-child):after {
+    background: #75BF42;
+    width: 3px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px; }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    background:white ;
+    padding: 1px!important; 
+  }
+  
+  .navbar {
+    background-color: #5DBCD2!important;
+  }
+  
+  .navbarBottom a img {
+    height: 4em !important; 
+  }
+  
+  .main-service h3 {
+    text-align: center; }
+  
+  header {
+    overflow: unset; }
+  
+  
+  
+  .productImage {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  
+  .productText {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  
+  .productImage img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; }
+  
+  /*--- Media Queries ---*/
+  /*--- Firefox Bug Fix ---*/
+  .carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible; }
+    
+/*--- Fixed Background Image---*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important; }
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#fixed {
+  background-image: url("images/logo.png");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform; }
+
+/*---Bootstrap Padding Fix---*/
+[class*="col-"] {
+  padding: 1rem; }
+
+  * footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tables, 768px and up)
+@media (min-width: 768px) { ... }
+
+Medium (lg) devices (tables, 992px and up)
+@media (min-width: 992px) { ... }
+
+Medium (xl) devices (tables, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+@import "node_modules/bootstrap/scss/bootstrap";
+//@import "https://fonts.googleapis.com/css?family=Tangerine";

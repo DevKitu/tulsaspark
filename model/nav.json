@@ -1,0 +1,43 @@
+ {  
+    "navTop": {
+        "title": "Tulsaspark",
+        "navItems":[
+            {"name":"about us", "href":"aboutus"}, 
+            {"name":"contact us", "href":"contactus"}
+        ] 
+    },
+ 
+    "navBottom": [
+        {
+            "title": "TWPT",
+            "href": "/twpt/home",
+            "id":"navItemTwpt",
+            "navItems":[
+                {"name":"HOME T", "href":"/twpt/home"}, 
+                {"name":"BBC", "href":"/twpt/home"}, 
+                {"name":"LANDFIELD", "href":"/twpt/home"}, 
+                {"name":"REGISTER TWPT", "href":"/twpt/home"}
+            ] 
+        },
+        {
+            "title": "TWP ",
+            "href": "/twp/home",
+            "id":"navItemTwp",
+            "navItems":[
+                {"name":"HOME P", "href":"/twp/home"} 
+               
+            ] 
+        },
+        {
+            "title": "TBAS",
+            "href": "/tbas/home",
+            "id":"navItemTbas",
+            "navItems":[
+                {"name":"HOME B", "href":"/tbas/home"} 
+               
+            ]  
+        }
+       
+    ]
+
+}
