@@ -1,0 +1,30 @@
+{
+    "title":"Our Services",
+    "description":"Tulsaspark Waste Packaging and Transfer is an innovative waste management company that provides integrated solutions and training in the collection, packaging, and transfer of waste for recycling. To promote a clean healthy environment, we focus on building sustainable livelihoods by working in partnership with",
+    "section":[
+        {
+            "name":"Current business",
+            "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section A 1",
+            "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section A 2",
+            "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section A 3",
+            "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        }
+    ]
+}

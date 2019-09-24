@@ -1,0 +1,596 @@
+<!--    
+<!-- jQuery Library -->
+<script src = "../../node_modules/jquery/dist/jquery.min.js">
+</script>
+
+<!-- Popper -->
+<script src = "../../node_modules/popper.js/dist/popper.min.js">
+</script>
+
+<!-- Compiled and Minified Bootstrap JavaScript -->
+<script src = "../../node_modules/bootstrap/dist/js/bootstrap.min.js">
+</script>
+-->
+
+
+
+
+<header>
+        
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" data-toggle="collapse" data-target=".navbars">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/" class="navbar-brand text-left">
+                        <!--  <img src="../../public/src/assets/images/logo.png" width="365" height="65" class="d-inline-block align-top" alt="logo"> -->
+                Tulsaspark
+            </a>
+               
+            <div class="collapse navbar-collapse navbars navbar-right" id="collapse_target1" style="height: 29px">
+                <ul class="navbar-nav mx-auto my-2 my-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </nav>
+        
+        <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light" style="background-color: #75BF42; height: 60px">
+            <a href="/" class="navbar-brand">
+                    <!--  <img src="../../public/src/assets/images/logo.png" width="365" height="65" class="d-inline-block align-top" alt="logo"> -->
+                <img src="https://image.freepik.com/free-vector/businessman-shouting-through-megaphone_23-2147511376.jpg" style="height: 2em">
+            </a>
+            <div class="collapse navbar-collapse navbars" id="collapse_target2">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 5</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >Link 5</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >Link 5</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+        <div class="row">
+            <div class="col ">
+                <div class="collapse multi-collapse card card-body" id="multiCollapseExample1">
+                        <div class="container ">
+                                <div class="row">
+                                    <div class="col-2">
+                                        Tulsaspark
+                                    </div>
+                                    <div class="col-2">
+                                        about us
+                                    </div>
+                                     <div class="col-2">
+                                        contact us
+                                    </div>
+                                    <div class="col-6">
+                                          
+                                        </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--container-->
+                </div>
+            </div>
+        </div>
+        </div>
+    
+
+    </header>
+
+
+<main>
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-4">
+                    <h2>Content...</h2>
+                    <h5>Scroll down to see the Navbar stick</h5>
+                
+                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
+                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+    
+                    <hr>
+    
+                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
+                    readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
+                    forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+                    
+                    <hr>
+                    
+                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
+                    raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                    Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                    
+                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
+                    readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
+                    forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+                    
+                    <hr>
+    
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <!--container-->
+
+        <h1 class="text-allign" > Tulsaspark layout</h1>
+        
+        <%- body %>
+
+    </main> 
+
+
+
+
+
+
+-----------------------------------------
+
+<nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" data-toggle="collapse" data-target=".navbars">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/" class="navbar-brand text-left">
+                        <!--  <img src="../../public/src/assets/images/logo.png" width="365" height="65" class="d-inline-block align-top" alt="logo"> -->
+                Tulsaspark
+            </a>
+               
+            <div class="collapse navbar-collapse navbars navbar-right" id="collapse_target1" >
+                <ul class="navbar-nav mx-auto my-2 my-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">contact us</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </nav>
+        
+        <nav class="navbar navbar-expand-sm sticky-top navbar-light " style="background-color: #75BF42; height: 60px">
+            <a href="/" class="navbar-brand">
+                    <!--  <img src="../../public/src/assets/images/logo.png" width="365" height="65" class="d-inline-block align-top" alt="logo"> -->
+                <img src="https://image.freepik.com/free-vector/businessman-shouting-through-megaphone_23-2147511376.jpg" style="height: 2em">
+            </a>
+            <div class="collapse navbar-collapse navbars " id="collapse_target2">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWPT</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWP</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TBAS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+       
+        <div class="collapse multi-collapse card card-body sticky-top " id="multiCollapseExample1">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-2 nav-item">
+                        <a class="nav-link" href="">HOME</a>  
+                    </div>
+                    <div class="col-2  nav-item">
+                        <a class="nav-link" href="">BBC</a> 
+                    </div>
+                    <div class="col-2  nav-item">
+                        <a class="nav-link" href="">LAND FIELD</a> 
+                    </div>
+                    <div class="col-6  nav-item">
+                       <a class="nav-link" href="">REGISTER</a>                    
+                    </div>
+                </div>
+                <!--/row-->
+            </div>
+            <!--container-->
+        </div>
+        
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm sticky-top navbar-light navbar2 px-2" >
+            <a href="/" class="navbar-brand">
+                    <img src="http://localhost:3000/src/assets/images/logo.png"  style="height: 2em" class="d-inline-block align-top" alt="logo"> 
+            </a>
+            <div class="collapse navbar-collapse navbar-toggle " id="navbarNavAltMarkup">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWPT</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWP</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TBAS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+..............
+<nav class="navbar  navbar-expand-lg navbar-light navbar2 sticky-fixed">
+          <a href="/" class="navbar-brand">
+            <img src="http://localhost:3000/src/assets/images/logo.png"  style="height: 2em" class="d-inline-block align-top" alt="logo"> 
+          </a>                  
+          <div class="collapse navbar-collapse navbar-toggle " id="navbarNavAltMarkup">
+              <ul class="navbar-nav ml">
+                  <li class="nav-item">
+                          <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWPT</a>
+                  </li>
+                  <li class="nav-item">
+                          <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TWP</a>
+                  </li>
+                  <li class="nav-item">
+                          <a class="nav-link" data-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1" >TBAS</a>
+                  </li>
+              </ul>
+          </div>   
+      </nav>
+
+
+
+gulp.task("nodemon", cb => {
+    let started = false;
+  
+    return nodemon({
+      script: "app.js"
+    }).on("start", () => {
+      if (!started) {
+        cb();
+        started = true;
+      }
+    });
+  });
+  
+  gulp.task(
+    "browser-sync",
+    gulp.series("nodemon", () => {
+      browserSync.init(null, {
+        proxy: "http://localhost:3000",
+        files: ["public/**/*.*"],
+  
+        port: 9000
+      });
+    })
+  );
+  
+  gulp.task("serve", gulp.series("browser-sync", () => {}));
+
+
+
+// watch
+
+
+function watch(){
+    browserSync.init({
+        server: {
+            baseDir: './'
+        }
+    });
+    gulp.watch('./public/src/scss/**/*.scss', style);
+    gulp.watch('./public/src/js/**/*.js').on('change', browserSync.reload);
+    gulp.watch('./view/**/*.ejs').on('change', browserSync.reload);
+}
+
+
+
+--------------------
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <%=navData.navTop.title%>
+        </a>
+                 
+        <div class="collapse navbar-collapse navbar-toggle navbar-right" id="navbarNav" >
+            <ul class="navbar-nav ml-auto ">
+
+                <% navData.navTop.navItems.forEach(function(navItem) { %>
+                  <li class="nav-item"><a class="nav-link " href="#<%= navItem.href %>"><%= navItem.name %> </a>  </li>
+                <% }); %>
+
+            </ul>
+        </div>  
+
+
+<% include ./navBottom %> 
+
+<% include ./navigation/navDetails %> 
+   
+
+
+
+<nav class="navbar  navbar-expand-lg navbar-light bg-light navbarTop ">
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+       <p>rwo 1</p>    
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p> row 2</p>
+          
+        </div>
+        </div>
+      </div>
+      </nav>
+
+
+
+-------
+
+
+                <div class="dropdown-menu">
+                    <% navData.navBottom.navItems.forEach(function(navItem, index) { %>
+                      <a class="nav-link <% if (index === 0) {%>
+                        <%= "active" %>
+                        <% } %>" 
+                        href="<%= navItem.href %>">
+                        <%= navItem.name %>
+                      </a>
+                    <% }); %>
+                </div> 
+
+
+*****************
+<% navItem[index].navItems.forEach(function(navItemDetail) { %>
+
+  <% navData.navBottom.navItems.forEach(function(navItemDetail) { %>
+                      <a class="nav-link" 
+                        href="<%= navItemDetail.href %>">
+                        <%= navItemDetail.name %>
+                      </a>
+                    <% }); %>
+
+
+
+.navbar {
+  background-color: #75BF42!important;
+
+  margin: 0;
+  padding: 0; }
+
+
+ <div class="carousel-item">
+                    <img class="d-block w-100" src="http://localhost:3000/static/src/assets/images/bin1.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>TWP</h3>
+                        <h5>About Us</h5>
+                        <p>Details of the TWP here</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="http://localhost:3000/static/src/assets/images/header.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>TBAS</h3>
+                        <h5>About Us</h5>
+                        <p>Details of the TBAS here</p>
+                    </div>
+                  </div>
+
+
+
+function style() {
+    // where is my scss file
+    return gulp.src('./public/src/scss/**/*.scss')
+    // pass that file through sass compiler
+        .pipe(sass())
+        //where i save the compliled css
+        .pipe(gulp.dest('./public/src/css'))
+        // stream changes to all compiler
+        .pipe(browserSync.stream());
+}
+
+
+
+
+
++++++++++++++++++++++
+
+var gulp        = require('gulp');
+var browserSync = require('browser-sync').create();
+var sass        = require('gulp-sass');
+
+/*-- run Nodmond with Gulp --*/
+
+gulp.task('nodemon', (cb) => {
+    let started = false;
+    return nodemon({
+      script: "app.js"
+    }).on("start", () => {
+      if (!started) {
+        cb();
+        started = true;
+      }
+    });
+  });
+  
+/*-- Move the javascript files into our /public/src/js folder --*/
+gulp.task('sass', function () {
+    return gulp.src('node_modules/bootstrap/scss/bootstrap.scss', './public/src/scss/**/*.scss')
+    // pass that file through sass compiler
+        .pipe(sass())
+        //where i save the compliled css
+        .pipe(gulp.dest('./public/src/css'))
+        // stream changes to all compiler
+        .pipe(browserSync.stream());
+        
+});
+/*-- Move the javascript files into our /public/src/js folder --*/
+    gulp.task('js', function () {
+        return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/popper.min.js')
+        // pass that file through sass compiler
+        .pipe(sass())
+        //where i save the compliled css
+        .pipe(gulp.dest('./public/src/js'))
+        // stream changes to all compiler
+        .pipe(browserSync.stream());
+        
+    });
+/*-- serve tasks static server + watching scs/html/js files--*/
+
+gulp.task('serve', ['sass','nodemon'], function () {
+
+    browserSync.init(null, {
+        proxy:"http://localhost:300",
+        port: 7000
+    });
+
+    gulp.watch('node_modules/bootstrap/scss/bootstrap.scss', 'public/src/scss/*.scss',['sass']);
+    gulp.watch('./public/src/js/**/*.js').on('change', browserSync.reload);
+    gulp.watch("", 'view/**/*.ejs').on('change', browserSync.reload);
+});
+
+
+/*-- serve the js and serve tasks when the gulp command is pressed--*/
+gulp.task('default', ['js','serve']);
+
+
+
+******************************************************
+
+const gulp = require("gulp");
+const browserSync = require("browser-sync");
+var sass        = require('gulp-sass');
+var nodemon = require("gulp-nodemon");
+
+/*-- Move the javascript files into our /public/src/js folder --*/
+gulp.task('sass', function () {
+    return gulp.src('node_modules/bootstrap/scss/bootstrap.scss', './public/src/scss/**/*.scss')
+    // pass that file through sass compiler
+        .pipe(sass())
+        //where i save the compliled css
+        .pipe(gulp.dest('./public/src/css'))
+        // stream changes to all compiler
+        .pipe(browserSync.stream());
+        
+});
+/*-- Move the javascript files into our /public/src/js folder --*/
+    gulp.task('js', function () {
+        return gulp.src('node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/popper.min.js')
+        // pass that file through sass compiler
+        .pipe(sass())
+        //where i save the compliled css
+        .pipe(gulp.dest('./public/src/js'))
+        // stream changes to all compiler
+        .pipe(browserSync.stream());
+        
+    });
+/*-- serve tasks static server + watching scs/html/js files--*/
+
+gulp.task('watchSass', function(){
+    return gulp.watch('node_modules/bootstrap/scss/bootstrap.scss', 'public/src/scss/*.scss', ['sass']);
+  });
+
+  gulp.task('watchJs', function(){
+    return gulp.watch('./public/src/js/**/*.js');
+  });
+
+  gulp.task('watchEjs', function(){
+    return gulp.watch( 'view/**/*.ejs');
+  });
+
+  gulp.task("nodemon",['watchSass','watchJs','watchEjs'], cb => {
+  let started = false;
+
+  return nodemon({
+    script: "app.js"
+  }).on("start", () => {
+      console.log('Gulp restarted...');
+    if (!started) {
+      cb();
+      started = true;
+    }
+  })
+});
+
+
+gulp.task("browser-sync", gulp.series("nodemon", () => {
+    browserSync.init(null, {
+      proxy: "http://localhost:3005",
+      files: ["public/**/*.*"],
+      port: 3010,
+    });
+
+  })
+);
+
+gulp.task("serve", gulp.series("browser-sync", () => {}));
+
+
+///////////////////////////////////
+const gulp = require('gulp')
+//const nodemon = require('nodemon')
+const nodemon = require('gulp-nodemon')
+const browserSync = require("browser-sync");
+var sass      = require('gulp-sass');
+
+gulp.task('sass', function(){
+    return gulp.src('node_modules/bootstrap/scss/bootstrap.scss', './public/src/scss/**/*.scss').
+    pipe(sass()).
+    pipe(gulp.dest('./public/src/css'))
+    .pipe(browserSync.stream());
+  })
+  
+  gulp.task('watch', function(){
+    return gulp.watch('node_modules/bootstrap/scss/bootstrap.scss', 'public/src/scss/*.scss', ['sass']);
+  })
+  
+  gulp.task('serve', function(){
+    return nodemon({
+      script: 'app.js',
+    })
+    .on('change', ['watch'])
+    .on('restart', function(){
+        console.log('restarted');
+        browserSync.reload
+      })
+  })
+
+
+
+-----------------------------------------
+
+<div class="container-fluid bg-dark text-light" id="contactus">
+    <div class="row cdevide">
+        <div class="col">
+            <h3>Address </h3>
+            <p><span class="lead">17 Cumberland Street Mthatha, 5099</span></p>
+            <p><span class="lead"> Mthatha, 5099</span></p>
+        </div>
+        <div class="col">
+                <span class="navbar-toggler-icon"></span>
+                <h3>Address </h3>
+                <p><span class="lead">17 Cumberland Street Mthatha, 5099</span></p>
+                <p><span class="lead"> Mthatha, 5099</span></p>
+        </div>
+        <div class="col">
+                <h3>Address </h3>
+                <p><span class="lead">17 Cumberland Street Mthatha, 5099</span></p>
+                <p><span class="lead"> Mthatha, 5099</span></p>
+        </div>
+    </div>
+</div>

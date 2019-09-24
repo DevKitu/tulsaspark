@@ -1,0 +1,30 @@
+{
+    "title":"Our Services",
+    "description":"Tulsaspark Waste Packaging and Transfer is an innovative waste management company that provides integrated solutions and training in the collection, packaging, and transfer of waste for recycling. To promote a clean healthy environment, we focus on building sustainable livelihoods by working in partnership with",
+    "section":[
+        {
+            "name":"Our value proposition",
+            "description":"The basic problem of many local municipalities in OR Tambo is that of rising management costs and environmental degradation – that is where we aim to have a positive impact.",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section C 1",
+            "description":"Improvement of waste management practice to maximise benefits and minimise costs",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section C 2",
+            "description":"Creation of full-time sustainable employment in the region which has high unemployment and poverty, currently",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        },
+        {
+            "name":"Section C 3",
+            "description":"Participate and contribute towards the minimisation of waste in a region where waste generation is high, to:",
+            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "footer":"Last updated 3 mins ago"
+        }
+    ]
+}

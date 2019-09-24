@@ -53,6 +53,24 @@ var populateList = function(items){
   } 
   return str;
 }
+//---
+
+let getservices = function (data) {
+
+  $("#serviceBImage").attr("src",data.serviceData.imageSrc);
+
+  $('.serviceBTitle').text(
+             data.serviceData.name 
+  );
+  $('.serviceBDescription').html(
+           data.serviceData.description 
+  );
+  $('.serviceBFooter').html(
+    data.serviceData.footer 
+  );
+console.log('items newD ',newData);
+
+};
 
 
 // ----
@@ -138,6 +156,88 @@ $('#navItemTbas').click(function(){
 
 });
 
+//--- Load TWPT services data Business section 01
+$('#serviceB').click(function(e){
+  e.preventDefault();
+  $.ajax({
+    url: "/twpt/services/business",
+    method: "GET",
+    dataType: 'json', // ** ensure you add this line **
+    success: function (data) {
+       getservices(data);
+    },
+    error: function (x, y, z) {
+        console.log('x', x);
+        console.log('y', y);
+        console.log('z', z);
+    }
+});
 
+/* End if Click function */
+});
+
+
+//--- Load TWPT services data Business section 01
+$('#serviceB01').click(function(e){
+  e.preventDefault();
+  $.ajax({
+    url: "/twpt/services/business/one",
+    method: "GET",
+    dataType: 'json', // ** ensure you add this line **
+    success: function (data) {
+       getservices(data);
+    },
+    error: function (x, y, z) {
+        console.log('x', x);
+        console.log('y', y);
+        console.log('z', z);
+    }
+});
+
+/* End if Click function */
+});
+
+//--- Load TWPT services data Business section 01
+$('#serviceB02').click(function(e){
+  e.preventDefault();
+  $.ajax({
+    url: "/twpt/services/business/two",
+    method: "GET",
+    dataType: 'json', // ** ensure you add this line **
+    success: function (data) {
+                                getservices(data);
+    },
+    error: function (x, y, z) {
+        console.log('x', x);
+        console.log('y', y);
+        console.log('z', z);
+    }
+});
+
+/* End if Click function */
+});
+
+//--- Load TWPT services data Business section 01
+$('#serviceB03').click(function(e){
+  e.preventDefault();
+  $.ajax({
+    url: "/twpt/services/business/three",
+    method: "GET",
+    dataType: 'json', // ** ensure you add this line **
+    success: function (data) {
+                                getservices(data);
+    },
+    error: function (x, y, z) {
+        console.log('x', x);
+        console.log('y', y);
+        console.log('z', z);
+    }
+});
+
+/* End if Click function */
+});
+
+
+/* End of Ready Function */
 });
   

@@ -1,47 +1,134 @@
 @import url("https://fonts.googleapis.com/css?family=Tangerine");
 
+/*-- Theme  custom color change--*/
+
 $theme-colors: (
-    "primary":     #75BF42,
-    "secondary":  #5DBCD2,
-    "success":     #28a745,
-    "info":       #17a2b8,
-    "warning":    #ffc107 ,
-    "danger":     #dc3545,
-    "light":      #e9ecef,
+    "primary":   #75BF42,
+    "secondary": #5DBCD2,
+    "success":   #28a745,
+    "info":      #17a2b8,
+    "warning":   #ffc107 ,
+    "danger":    #dc3545,
+    "light":     #e9ecef,
     "dark":      #212529,
-    "grey":  #6a6c6d
+    "grey":      #6a6c6d
 );
 
 
-/*--- General css  ---*/
+/*--- Custom css  ---*/
+
+
+
+/*-- General All Pages --*/
+
+
+/*-- body --*/
+body {
+  height: 100%;
+  width: 100%;
+  background:var(--danger) !important ;
+  padding: 1px!important; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-- Navigation --*/
+
+
+
+/*-- logo size on the nav bar --*/
+.navbarBottom a img {
+  height: 2em !important; 
+}
+
+/*-- Sub Nav display --*/
+
+/*-- Open the dropdown static div --*/
+/*
+.navbar-nav > li.dropdown.open {
+  position: static;
+}
+
+.navbar-nav > li.dropdown.open .dropdown-menu {
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+}
+*/
+/*-- Hover display the menu icons --*/
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+} 
+/*-- header section --*/
+
+
+/*please check this*/
+header {
+  overflow: unset; 
+}
+
+/*main header in the home and twpt header page to create a shadow effect on the Navbar*/ 
+  .main-header {
+    margin: 0 !important;
+    padding:0 !important; 
+    border:0;
+    background-color: var(--light) !important;
+    border-top: 2px solid rgb(219,219,219);
+  }
+
+
+/*please check this*/
+  .main-service h3 {
+    text-align: center; 
+  }
+  
+/*-- Home Page--*/
+
+
+/*-- Carousel  --*/
 
 /*--remove margin paading and border on the caroussel col elements--*/
 .cCol {
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important; 
-    
-  }
-  /*--make the caroussel col elements(image and jumbotron) 100% height --*/
-  .cColEl {
-    height: 100vh;
-  }
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important; 
   
-  .main-header {
-    margin: 0 !important;
-    background-color: #ffffff !important;
-    border-top: 2px solid rgb(219,219,219);
-  
-  }
+}
+/*--make the caroussel col elements(image and jumbotron) 100% height --*/
+.cColEl {
+  height: 100vh;
+}
 
+/*-- Jumbotron*/
+
+/*-- set background color */
   .jumbotron {
     //margin: 0 !important;
-    background-color: #ffffff !important;
+    background-color: var(--light) !important;
     //border-top: 2px solid rgb(219,219,219);
   }
   
+  
+/*please check this*/
   .row.cdevide [class*='col']:not(:last-child):after {
-    background: #75BF42;
+    background: var(--primary);
     width: 3px;
     content: "";
     display: block;
@@ -51,43 +138,50 @@ $theme-colors: (
     right: 0;
     min-height: 70px; }
   
-  body {
-    height: 100%;
-    width: 100%;
-    background:white ;
-    padding: 1px!important; 
-  }
   
-  .navbar {
-    background-color: #5DBCD2!important;
-  }
-  
-  .navbarBottom a img {
-    height: 4em !important; 
-  }
-  
-  .main-service h3 {
-    text-align: center; }
-  
-  header {
-    overflow: unset; }
-  
-  
-  
+  /*-- Twpt Page --*/
+
+
+  /*-- Products section --*/
+
+  /*-- remove padding on the image div--*/
   .productImage {
     padding-top: 0 !important;
-    padding-bottom: 0 !important; }
-  
+    padding-bottom: 0 !important; 
+  }
+  /*-- remove padding on the text div ---*/
   .productText {
     padding-top: 0 !important;
-    padding-bottom: 0 !important; }
-  
+    padding-bottom: 0 !important; 
+  }
+  /*-- make the image fill the all Div --*/
   .productImage img {
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto; }
+    height: auto; 
+  }
   
+/*-- twpt page */
+
+/*-- about us*/
+
+.aboutus {
+  margin: 1px !important;
+  padding:0 !important; 
+  background-color: var(--light);
+}
+
+/*-- our services*/
+
+.main-service {
+  margin: 1px !important;
+  padding:0 !important; 
+  background-color: var(--light);
+}
+
+
+/*please check this*/
   /*--- Media Queries ---*/
   /*--- Firefox Bug Fix ---*/
   .carousel-item {
@@ -124,20 +218,22 @@ figure {
   background-position: center center;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  will-change: transform; }
+  will-change: transform; 
+}
 
 /*---Bootstrap Padding Fix---*/
 [class*="col-"] {
-  padding: 1rem; }
+  padding: 5px; 
+}
 
-  * footer social icons */
+  /* footer social icons */
 
 .social-network a.icoFacebook:hover {
-  background-color: #3B5998;
+  background-color: var(--secondary);
 }
 
 .social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+  background-color: var(--secondary);
 }
 
 .social-network a.icoFacebook:hover i,
@@ -214,4 +310,4 @@ Medium (xl) devices (tables, 1200px and up)
 */
 
 @import "node_modules/bootstrap/scss/bootstrap";
-//@import "https://fonts.googleapis.com/css?family=Tangerine";
+@import "https://fonts.googleapis.com/css?family=Tangerine";
