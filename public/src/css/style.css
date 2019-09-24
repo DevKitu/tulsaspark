@@ -98,15 +98,17 @@ header {
 /*-- Twpt Page --*/
 /*-- Products section --*/
 /*-- remove padding on the image div--*/
-.productImage {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important; }
-
+/*
+  .productImage {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+  }*/
 /*-- remove padding on the text div ---*/
-.productText {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important; }
-
+/*
+  .productText {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; 
+  }*/
 /*-- make the image fill the all Div --*/
 .productImage img {
   min-width: 100%;
