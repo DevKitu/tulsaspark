@@ -11,7 +11,8 @@ $theme-colors: (
     "danger":    #dc3545,
     "light":     #e9ecef,
     "dark":      #212529,
-    "grey":      #6a6c6d
+    "grey":      #6a6c6d,
+    "white":     #FFFDFF,
 );
 
 
@@ -26,7 +27,7 @@ $theme-colors: (
 body {
   height: 100%;
   width: 100%;
-  background:var(--danger) !important ;
+  background:var(--white) !important ;
   padding: 1px!important; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

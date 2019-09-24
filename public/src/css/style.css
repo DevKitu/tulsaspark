@@ -7,7 +7,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: var(--danger) !important;
+  background: var(--white) !important;
   padding: 1px !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
@@ -98,17 +98,15 @@ header {
 /*-- Twpt Page --*/
 /*-- Products section --*/
 /*-- remove padding on the image div--*/
-/*
-  .productImage {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important; 
-  }*/
+.productImage {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
 /*-- remove padding on the text div ---*/
-/*
-  .productText {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important; 
-  }*/
+.productText {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
 /*-- make the image fill the all Div --*/
 .productImage img {
   min-width: 100%;
@@ -272,6 +270,7 @@ Medium (xl) devices (tables, 1200px and up)
   --light: #e9ecef;
   --dark: #212529;
   --grey: #6a6c6d;
+  --white: #FFFDFF;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1469,6 +1468,23 @@ pre {
   .table-hover .table-grey:hover > th {
     background-color: #c8c9c9; }
 
+.table-white,
+.table-white > th,
+.table-white > td {
+  background-color: #fffeff; }
+
+.table-white th,
+.table-white td,
+.table-white thead th,
+.table-white tbody + tbody {
+  border-color: #fffeff; }
+
+.table-hover .table-white:hover {
+  background-color: #ffe5ff; }
+  .table-hover .table-white:hover > td,
+  .table-hover .table-white:hover > th {
+    background-color: #ffe5ff; }
+
 .table-active,
 .table-active > th,
 .table-active > td {
@@ -2164,6 +2180,29 @@ fieldset:disabled a.btn {
     .show > .btn-grey.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(128, 130, 131, 0.5); }
 
+.btn-white {
+  color: #212529;
+  background-color: #FFFDFF;
+  border-color: #FFFDFF; }
+  .btn-white:hover {
+    color: #212529;
+    background-color: #ffd7ff;
+    border-color: #ffcaff; }
+  .btn-white:focus, .btn-white.focus {
+    box-shadow: 0 0 0 0.2rem rgba(222, 221, 223, 0.5); }
+  .btn-white.disabled, .btn-white:disabled {
+    color: #212529;
+    background-color: #FFFDFF;
+    border-color: #FFFDFF; }
+  .btn-white:not(:disabled):not(.disabled):active, .btn-white:not(:disabled):not(.disabled).active,
+  .show > .btn-white.dropdown-toggle {
+    color: #212529;
+    background-color: #ffcaff;
+    border-color: #ffbdff; }
+    .btn-white:not(:disabled):not(.disabled):active:focus, .btn-white:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-white.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(222, 221, 223, 0.5); }
+
 .btn-outline-primary {
   color: #75BF42;
   border-color: #75BF42; }
@@ -2352,6 +2391,27 @@ fieldset:disabled a.btn {
     .btn-outline-grey:not(:disabled):not(.disabled):active:focus, .btn-outline-grey:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-grey.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(106, 108, 109, 0.5); }
+
+.btn-outline-white {
+  color: #FFFDFF;
+  border-color: #FFFDFF; }
+  .btn-outline-white:hover {
+    color: #212529;
+    background-color: #FFFDFF;
+    border-color: #FFFDFF; }
+  .btn-outline-white:focus, .btn-outline-white.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 253, 255, 0.5); }
+  .btn-outline-white.disabled, .btn-outline-white:disabled {
+    color: #FFFDFF;
+    background-color: transparent; }
+  .btn-outline-white:not(:disabled):not(.disabled):active, .btn-outline-white:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-white.dropdown-toggle {
+    color: #212529;
+    background-color: #FFFDFF;
+    border-color: #FFFDFF; }
+    .btn-outline-white:not(:disabled):not(.disabled):active:focus, .btn-outline-white:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-outline-white.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 253, 255, 0.5); }
 
 .btn-link {
   font-weight: 400;
@@ -3876,6 +3936,16 @@ input[type="button"].btn-block {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(106, 108, 109, 0.5); }
 
+.badge-white {
+  color: #212529;
+  background-color: #FFFDFF; }
+  a.badge-white:hover, a.badge-white:focus {
+    color: #212529;
+    background-color: #ffcaff; }
+  a.badge-white:focus, a.badge-white.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 253, 255, 0.5); }
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -3992,6 +4062,15 @@ input[type="button"].btn-block {
     border-top-color: #c8c9c9; }
   .alert-grey .alert-link {
     color: #1e1f1f; }
+
+.alert-white {
+  color: #858485;
+  background-color: white;
+  border-color: #fffeff; }
+  .alert-white hr {
+    border-top-color: #ffe5ff; }
+  .alert-white .alert-link {
+    color: #6b6b6b; }
 
 @keyframes progress-bar-stripes {
   from {
@@ -4271,6 +4350,17 @@ input[type="button"].btn-block {
     color: #fff;
     background-color: #373839;
     border-color: #373839; }
+
+.list-group-item-white {
+  color: #858485;
+  background-color: #fffeff; }
+  .list-group-item-white.list-group-item-action:hover, .list-group-item-white.list-group-item-action:focus {
+    color: #858485;
+    background-color: #ffe5ff; }
+  .list-group-item-white.list-group-item-action.active {
+    color: #fff;
+    background-color: #858485;
+    border-color: #858485; }
 
 .close {
   float: right;
@@ -4963,6 +5053,14 @@ button.bg-grey:focus {
   background-color: #515253 !important; }
 
 .bg-white {
+  background-color: #FFFDFF !important; }
+
+a.bg-white:hover, a.bg-white:focus,
+button.bg-white:hover,
+button.bg-white:focus {
+  background-color: #ffcaff !important; }
+
+.bg-white {
   background-color: #fff !important; }
 
 .bg-transparent {
@@ -5024,6 +5122,9 @@ button.bg-grey:focus {
 
 .border-grey {
   border-color: #6a6c6d !important; }
+
+.border-white {
+  border-color: #FFFDFF !important; }
 
 .border-white {
   border-color: #fff !important; }
@@ -7280,6 +7381,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 a.text-grey:hover, a.text-grey:focus {
   color: #444646 !important; }
+
+.text-white {
+  color: #FFFDFF !important; }
+
+a.text-white:hover, a.text-white:focus {
+  color: #ffb1ff !important; }
 
 .text-body {
   color: #212529 !important; }
