@@ -5,25 +5,25 @@
         {
             "name":"Current business",
             "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section A 1",
             "description":"Section A 1: In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/paper.png",
+            "imageSrc":"/static/src/assets/images/paper.png",
             "footer":"Section A 1:Last updated 3 mins ago"
         },
         {
             "name":"Section A 2",
             "description":"Section A 2: In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/plastic.png",
+            "imageSrc":"/static/src/assets/images/plastic.png",
             "footer":"Section A 2: Last updated 3 mins ago"
         },
         {
             "name":"Section A 3",
             "description":"Section A 3: In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Section A 3: Last updated 3 mins ago"
         }
     ],
@@ -31,25 +31,25 @@
         {
             "name":"Operating network infrastructure",
             "description":"In 2017 Tulsaspark was appointed as Implementing Agent for the OR Tambo District Municipality Regional Recycling Program. Our operations are geographically spread in all towns of the OR Tambo District Municipality. There is a network of buy-back centres (“BBCs”) to procure recyclable material from waste harvesters and waste generators – is at least one in each town. All material from the BBCs is then taken to the ORTDM Regional Recycling Facility known as the Main Processing Centre (“MPCs”) for sorting, bailing and packaging, Thereafter, the packaged recyclable product is sold and transferred to our network of recycling client companies, outside of the borders of the Eastern Cape – namely, Sappi, Collect-A-Can, Consol, Sen Li Da, etc.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section B 1",
             "description":"TWPT BBCs with operational staff equipped with tools: 8 Mthatha and 1 in each of the other towns (Mqanduli, Tsolo, Qumbu, Libode, Ngqeleni, Port St Johns, Lusikisiki and Flagstaff) MPC in Qumbu, with easy access to roadway links to buyer destinations TWPT undertakes collection of recyclable material from sources in various areas where there is difficulty to deliver to the BBCs – this includes rural areas. Collection vehicles are fitted with special equipment to compress and protect the acquired recyclables during transportation to BBCs and MPCs",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section B 2",
             "description":"TWPT BBCs with operational staff equipped with tools: 8 Mthatha and 1 in each of the other towns (Mqanduli, Tsolo, Qumbu, Libode, Ngqeleni, Port St Johns, Lusikisiki and Flagstaff) MPC in Qumbu, with easy access to roadway links to buyer destinations TWPT undertakes collection of recyclable material from sources in various areas where there is difficulty to deliver to the BBCs – this includes rural areas. Collection vehicles are fitted with special equipment to compress and protect the acquired recyclables during transportation to BBCs and MPCs",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section B 3",
             "description":"TWPT BBCs with operational staff equipped with tools: 8 Mthatha and 1 in each of the other towns (Mqanduli, Tsolo, Qumbu, Libode, Ngqeleni, Port St Johns, Lusikisiki and Flagstaff) MPC in Qumbu, with easy access to roadway links to buyer destinations TWPT undertakes collection of recyclable material from sources in various areas where there is difficulty to deliver to the BBCs – this includes rural areas. Collection vehicles are fitted with special equipment to compress and protect the acquired recyclables during transportation to BBCs and MPCs",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         }
     ],
@@ -57,25 +57,25 @@
         {
             "name":"Our value proposition",
             "description":"The basic problem of many local municipalities in OR Tambo is that of rising management costs and environmental degradation – that is where we aim to have a positive impact.",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section C 1",
             "description":"Improvement of waste management practice to maximise benefits and minimise costs",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section C 2",
             "description":"Creation of full-time sustainable employment in the region which has high unemployment and poverty, currently",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         },
         {
             "name":"Section C 3",
             "description":"Participate and contribute towards the minimisation of waste in a region where waste generation is high, to:",
-            "imageSrc":"http://localhost:3000/static/src/assets/images/flower.jpg",
+            "imageSrc":"/static/src/assets/images/flower.jpg",
             "footer":"Last updated 3 mins ago"
         }
     ]
