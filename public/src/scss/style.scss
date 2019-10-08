@@ -29,13 +29,15 @@ body {
   width: 100%;
   background:var(--white) !important ;
   padding: 1px!important; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', 'sans-serif', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana';
 }
 
 
 /*-- Navigation --*/
 
-
+.navbar-item a:hover{
+ color: var(--secondary); 
+}
 
 /*-- logo size on the nav bar --*/
 .navbarBottom a img {
@@ -310,6 +312,7 @@ Medium (lg) devices (tables, 992px and up)
 Medium (xl) devices (tables, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "https://fonts.googleapis.com/css?family=Tangerine";

@@ -1,43 +1,42 @@
-<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-primary ">
-  <a href="/" class="navbar-brand">
-    <img src="/static/src/assets/images/logo.png" 
-          class="d-inline-block align-top img-responsive" alt="logo" style="height: 3rem!important; width: 16rem!important;">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto small mb-2 mb-md-0">
-      <% navData.navTop.navItems.forEach(function(navItem) { %>
-        <li class="nav-item"><a class="nav-link  lead font-weight-bold  text-dark" href="#<%= navItem.href %>"><%= navItem.name %> </a>  </li>
-      <% }); %>
-
-    </ul>
-    
-    <hr class="border-top my-2">
-    <hr class="my-4">
-    <ul class="navbar-nav big mx-auto">
-
-            <% navData.navBottom.forEach(function(navItem, index) { %>
-              <li class="nav-item  dropdown <% if (index === 0) {%>
-                        <%= "active" %>
-                        <% } %>" 
-                id="<%= navItem.id %>">
-                <a class="nav-link lead dropdown-toggle font-weight-bold text-dark " data-toggle="dropdown" aria-expanded="false" 
-                     href="<%= navItem.href %>"><%= navItem.title %> 
-                </a>
-                <div class="dropdown-menu">
-                    
-                    <% for (var j = 0; j < navItem.navItems.length; j++) {%>  
-                      <a class="dropdown-item" 
-                        href="<%= navItem.navItems[j].href %>">
-                        <%= navItem.navItems[j].name %>
-                      </a>
-                    <% } %>
-                </div> 
- 
-              </li>
-            <% }); %>
-        </ul>
-    </div>
+<nav class="navbar navbar-dark bg-primary py-0 my-lg-0">
+    <a class="navbar-brand py-0" href="#">tulsaspark</a>
 </nav>
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white by-4 py-0 pl-0 align-items-end" style="height: 6rem">
+    <a class="navbar-brand py-1 pl-2" href="#" >
+        <img src="/static/src/assets/images/logo.png" alt="tulsaspark logo" >
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse py-0" id="navbarSupportedContent" >
+      <ul class="navbar-nav  nav-tabs mr-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            TULSASPARK WASTE PROCESSING T
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 100%">
+            <a class="dropdown-item" href="#">HOME</a>
+            <a class="dropdown-item" href="#">BBC</a>
+            <a class="dropdown-item" href="#">LANDFIELD</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">REGISTER</a>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">TULSASPARK WASTE PROCESSING <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TULSASPARK B A S</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+          </li> 
+          <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+          </li> 
+      </ul>
+    </div>
+  </nav>

@@ -9,9 +9,12 @@ body {
   width: 100%;
   background: var(--white) !important;
   padding: 1px !important;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: 'Open Sans', 'sans-serif', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana'; }
 
 /*-- Navigation --*/
+.navbar-item a:hover {
+  color: var(--secondary); }
+
 /*-- logo size on the nav bar --*/
 .navbarBottom a img {
   height: 2em !important; }
